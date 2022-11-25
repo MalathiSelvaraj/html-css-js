@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>
+            FRIENDS BOOK
+        </title>
+        <style>
+            .friend{
+                background-image:url("book.jpg");
+                width:100%;
+                height:100%;
+                background-size: cover;
+            }
+            form{
+                padding:3px;
+                color:white;
+                font-size:small;
+                text-align: center;
+                
+                
+                }
+                input,textarea{
+                    opacity: .7;
+                }
+                .front{
+                    z-index: 2;
+                    
+                color: white;
+                text-align: center;
+                background-color: rgb(111, 70, 70);
+                background-color: rgba(89, 75, 75, 0.7);
+                position: absolute;
+                top:50%;
+                left:50%;
+                transform: translate(-50%,-50%);
+                width:70%;
+                }
+           
+        </style>
+    </head>
+    <body>
+        <div class="friend"></div>
+          <div class="front">  
+        <form>
+            <h1>FRIENDS BOOK</h1>
+            <label for="name">Your Name: </label>
+            <input type="text" for="name" id="textbox"><br><br>
+            <label for="msg">1. A Message for me!</lable><br>
+            <textarea name="msg" rows="4" cols="30" ></textarea><br><br>
+            <label for="nickname">2. Nick name for me !</label><br>
+            <textarea name="nickname" rows="4" cols="30"></textarea><br><br>
+            3. Have you ever lied to me <br>
+            <input type="radio" name="lie" id="yesmaybe" value="Yes">
+            <label for="lie">Yes</label>
+            <input type="radio" name="lie" id="yesmaybe" value="maybe">
+            <label for="lie">Maybe</label><br><br>
+            4.How do you feel when you talk to me<br>
+            <input type="radio" name="talk" id="feel" value="happy">
+            <label for="talk">Happy</label>
+            <input type="radio" name="talk" id="feel" value="Irritated">
+            <label for="talk">Irritated</label><br><br>
+            5. Do you like to go on a road trip with me?<br>
+            <input type="radio" name="trip" id="roadtrip" value="Yes">
+            <label for="trip">Yes</label>
+            <input type="radio" name="trip" id="roadtrip" value="No">
+            <label for="trip">No</label><br><br>
+            6. Best color that suits me?<br>
+            <input type="checkbox" name="color" id="color" value="Red">
+            <label for="color">Red</label>
+            <input type="checkbox" name="color" id="color" value="Blue">
+            <label for="color">Blue</label>
+            <input type="checkbox" name="color" id="color" value="White">
+            <label for="color">White</label>
+            <input type="checkbox" name="color" id="color" value="Green">
+            <label for="color">Green</label>
+            <input type="checkbox" name="color" id="color" value="Black">
+            <label for="color">Black</label><br><br>
+            <label for="bestmoment">7. The best moment in our friendship?</label><br>
+            <textarea name="bestmoment" rows="4" cols="30"></textarea>
+                </form>
+        </div>
+    </body>
+</html>

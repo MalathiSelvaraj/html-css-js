@@ -1,0 +1,57 @@
+
+            .common{
+                padding-top: 1em;
+                padding-left: 3px;
+                padding-bottom: 5px;
+                padding-right: 4em;
+            }
+.container{
+    position:relative;
+     text-align: center;
+    color:rgb(17, 10, 1);
+    height: 40%;
+    width:100%;
+      
+    }
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.div2{
+    background-color: chartreuse;
+    color:white;
+    padding-bottom: 5px;
+}
+.div3{
+    background-color:darkorange;
+    color:white;
+    padding-bottom: 5px;
+}
+.div4{
+    background-color:blueviolet;
+    color:white;
+    padding-bottom: 5px;
+    
+}
+#favfoodimage1{
+    border: 2px solid white;
+    padding:2px;
+}
+#fooddescription1{
+    font-size: xx-small;
+}
+#fooddescription2{
+    font-size: xx-small;
+}
+#fooddescription3{
+    font-size:xx-small;
+}
+
+h3{
+    font-size:small;
+    font-style: italic;
+    padding-top: 5px;
+}
+    

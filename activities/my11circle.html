@@ -1,0 +1,271 @@
+<html>
+    <head>
+        <title>
+            World Cup 2011
+        </title>
+        <style>
+            .background{
+               background-color:rgb(12, 7, 45);
+                background-size: cover;
+                width:100%;
+                height:100%;
+               
+            }
+            
+            .image1{
+                /*background-color: antiquewhite;*/
+                width:30%;
+                height:100%;
+                z-index: 2;
+                float: left;
+                position: relative;
+                text-align:center;
+               /* top:50%;
+                left:50%;
+                transform: translate(-50%,-50%);
+                opacity:.5;*/
+            }
+            .scoreboard{
+                width:40%;
+                height:100%;
+                /*background-color: rgb(155, 129, 179);
+                border: 2px black solid;*/
+                z-index: 2;
+                float:left;
+                position:absolute;
+                top:50%;
+                left:40.5%;
+                transform: translate(-25%,-50%);
+                padding-top: 5px;
+                text-align: center;
+                color: azure;
+            }
+            .image2{
+                /*background-color: antiquewhite;*/
+                width:30%;
+                height:100%;
+                z-index: 2;
+                float: left;
+                position: absolute;
+               top:50%;
+                left:76%;
+                transform: translate(-50%,-50%);
+                text-align:center;
+                
+            }
+            img{
+                position:absolute;
+                top:50%;
+                left:50%;
+            }
+           
+            #scorecard{
+                
+                position: absolute;
+                top:55%;
+                left:50%;
+                transform: translate(-50%,-50%);
+                width:100%;
+                background-color: azure;
+                padding-bottom: 10px;
+                
+            }
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            
+            }
+            table{
+                width:100%;
+                
+            }
+            hr{
+                background: linear-gradient(to left, orange,rgb(126, 23, 199),violet);
+                height: 2px;
+            }
+
+            
+            th{
+                color: white;
+                background-color: darkmagenta;
+                text-align:center;
+               
+                            
+            }
+            td{
+                color: black;
+                background-color: white;
+                text-align: right;
+                height:100%;
+                padding-right:5px;
+            }
+
+            
+            .multicolor{
+                background: linear-gradient(to left,orange,rgb(126, 23, 199),violet);
+                -webkit-background-clip:text;
+                color:transparent;
+                
+            }
+            
+            .lighteffect{
+                width: 0px;
+                height: 0px;
+                border-top-left-radius: 2%;
+                box-shadow:
+                     0px 0px 60px 30px #fff,   
+                     0px 0px 100px 60px #f0f,  
+                     0px 0px 140px 90px rgb(35, 112, 227);                 
+            }
+            .lighteffect2{
+                top:95%;
+                left:95%;
+                width: 0px;
+                height: 0px;
+                position: absolute;
+                border-bottom-right-radius: 2%;
+                box-shadow:
+                     0px 0px 60px 30px #fff,   
+                     0px 0px 100px 60px #f0f,  
+                     0px 0px 140px 90px rgb(35, 112, 227);                 
+            }
+           
+           a{
+            text-decoration: none;
+            text-align: left;
+            color: black;
+          
+            
+           }
+           span{
+            color: darkgray;
+           }
+           
+            #name{
+                width:40%;
+                box-shadow: 0px 0px 7px black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="background">
+        <div class="lighteffect"></div>
+        <div class="image1">
+            <img src="won.jpg" width="30%" height="30%">
+        </div>
+        <div class="scoreboard">
+            <div class="multicolor">
+           <h1>ICC WORLD CUP 2011</h1>
+            <HR>
+            <h2>INDIA VS SRILANKA</h2>
+            <h2>SCORECARD</h2><br><br>
+            </div>
+            
+            <table id="scoreCard">
+                
+                <tr>
+                    <th id="batsmanList">BATSMAN</th>
+                    <th id="runScored">R</th>
+                    <th id="ballFaced">B</th>
+                    <th id="noOfFours">4s</th>
+                    <th id="noOfSixes">6s</th>
+                    <th id="strikeRate">SR</th>
+                </tr>
+                <tr>
+                    <td id="name"><a href="https://cricheroes.in/player-profile/2381270/Sreekanth@akamai"><div>Akamai &emsp;&emsp;<span> c name b name</span></div></a></td>
+                    <td>93</td>
+                    <td>64</td>
+                    <td>6</td>
+                    <td>64.0</td>
+                    <td>64.0</td>
+                </tr>
+                <tr>
+                    <td id="name"><a href="https://en.wikipedia.org/wiki/Marcus_Stoinis"><div>Micron&emsp;&emsp; <span>lbw name</span></div></a></td>
+                    <td>40</td>
+                    <td>31</td>
+                    <td>3</td>
+                    <td>31</td>
+                    <td>33.1</td>
+                </tr>
+                <tr>
+                    <td id="name"><a href="https://en.wikipedia.org/wiki/Sompal_Kami"><div>First Horizon&emsp;&emsp;<span>lbw name</span></div></a></td>
+                    <td>66</td>
+                    <td>22</td>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>20.2</td>
+                </tr>
+                <tr>
+                    <td id="name"><a href="https://en.wikipedia.org/wiki/Lungi_Ngidi"><div>Lungi&emsp;&emsp;<span>lbw name</span></div></a></td>
+                    <td>47</td>
+                    <td>12</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>17.2</td>
+                </tr>
+                <tr>
+                    <td id="name"><a href="https://en.wikipedia.org/wiki/Alzarri_Joseph"><div>Altera&emsp;&emsp;<span>b name</span></div></a></td>
+                    <td>39</td>
+                    <td>50</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>15.0</td>
+                </tr>
+                <tr>
+                    <td id="name"><a href="https://en.wikipedia.org/wiki/Rohit_Sharma"><div>ROHIT&emsp;&emsp;<span>b name</span></div></a></td>
+                    <td>33</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>0</td>
+                    <td>64.0</td>
+                </tr>
+                <tr>
+                    <td id="name"><a href="https://en.wikipedia.org/wiki/MS_Dhoni"><div>MSD&emsp;&emsp;<span>not out</span></div></a></td>
+                    <td>95</td>
+                    <td>61</td>
+                    <td>8</td>
+                    <td>4</td>
+                    <td>120</td>
+                </tr>
+                <tr>
+                    <td id="name"><a href="https://www.cricbuzz.com/profiles/1413/virat-kohli"><div>KHOLI&emsp;&emsp;<span>b name</span></div></a></td>
+                    <td>85</td>
+                    <td>122</td>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>20.2</td>
+                </tr>
+                <tr>
+                    <td id="name"><a href="https://en.wikipedia.org/wiki/Habibul_Bashar"><div>Banschare&emsp;&emsp;<span>b name</span></div></a></td>
+                    <td>69</td>
+                    <td>72</td>
+                    <td>12</td>
+                    <td>2</td>
+                    <td>17.2</td>
+                </tr>
+                <tr>
+                    <td id="name"><a href="https://en.wikipedia.org/wiki/Kieron_Pollard"><div>Altolandia&emsp;&emsp;<span>b name</span></div></a></td>
+                    <td>41</td>
+                    <td>50</td>
+                    <td>10</td>
+                    <td>1</td>
+                    <td>15.0</td>
+                </tr>
+                <tr>
+                    <td id="name"><a href="https://en.wikipedia.org/wiki/Yuvraj_Singh#:~:text=Yuvraj%20Singh%20(born%2012%20December,style%20and%20all%2Dround%20ability."><div>Yuvaraj&emsp;&emsp;<span>not out</span></div></a></td>
+                    <td>41</td>
+                    <td>38</td>
+                    <td>5</td>
+                    <td>0</td>
+                    <td>11.5</td>
+                </tr>
+            </table>
+            
+        </div>
+        <div class="image2">
+            <img src="won.jpg" width="30%" height="30%">
+        </div>
+        <div class="lighteffect2"></div>
+    </div>
+    </body>
+</html>

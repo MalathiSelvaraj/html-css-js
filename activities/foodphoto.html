@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>
+            Food Photography
+        </title>
+        <style>
+            img{
+                padding-bottom: 5px;
+            }
+            #firstimage, #secondimage
+            {
+                width:100%;
+                height:fit-content
+            }
+            #thirdimage,#fourthimage
+            {width: 100%;
+                height: 100%;
+            }
+            h2{
+                background-color:darkgray;
+                padding-top: 5px;
+                text-align: center;
+                padding-bottom: 5px;
+                margin-bottom: 0px;       
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+           span{
+            border-left:dotted;
+            border-right: dotted;
+            padding-left: 10px;
+            padding-right: 10px;
+           }
+           p{
+            text-align: center;
+            font-size: large;
+           }
+           footer{
+            page-break-after: always;
+           }
+           .firstpage{
+            page-break-inside: avoid;
+           }
+        </style>
+    </head>
+    <body>
+        <div class="firstpage">
+        <div>
+        <h2><span> Our Work</span></h2>
+        </div>
+        <div>
+        <img src="food1.jpg" id="firstimage" alt="food image1" >
+        </div>
+        <div>
+        <img src="food2.jpg" id="secondimage" alt="food image2" >
+    <footer><p id="firstimagename"> <b>Food Photography</b> </p></footer>
+        </div>
+        </div>
+        <div>
+            <img src="aerial.jpg" id="thirdimage" alt="AerialPhotography">
+           
+        </div>
+        <footer> <p id="secondimagename"><b> Aerial Photography </b></p></footer>
+        <div>
+            <img src="abstract.jpg" id="fourthimage" alt="abstractphotography">
+           <footer> <p id="thirdimagename"><b> Abstract Photography</b></p></footer>
+        </div>
+    </body>
+</html>

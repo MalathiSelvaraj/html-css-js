@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <title>
+            Marvel Universe
+        </title>
+        <style>
+            .background{
+                width:100%;
+                height:100%;
+                background-image: url("marvelbg.jpg");
+                background-size: cover;
+            }
+            .front{
+                z-index: 2;
+                width:50%;
+                height:60%;
+                position:absolute;
+                top:50%;
+                left:50%;
+                transform: translate(-50%,-50%);
+                background-color: rgb(22, 5, 5,0.7);
+               display:grid;
+               grid-template-columns: auto auto;
+               grid-template-rows: 30px 40px auto;
+               gap:10px;
+              
+            }
+            h2,h1{
+                text-align: center;
+                color: white;
+                line-height: 0px;
+            }
+            h1{
+                font-size:x-large;
+            }
+            h2{
+                font-size: medium;
+            }
+            .header{
+                background-color: crimson;
+                padding: 0px;
+                margin: 0%;
+                grid-column-start: 1;
+                grid-column-end: 3;
+                text-align: center;
+                height:fit-content;
+            }
+            .heros{
+                display: grid;
+                grid-template-columns: 70px 70px 70px;
+                grid-template-rows: 50px 50px 50px;
+                row-gap: 30px;
+                column-gap: 10px;
+                align-content:flex-start;
+               justify-content: center;
+            }
+            .villan{
+                display: grid;
+                grid-template-columns: 70px 70px 70px;
+                grid-template-rows: 50px 50px 50px;
+                row-gap: 30px;
+                column-gap: 10px;
+                align-content:flex-start;
+               justify-content: center;
+            }
+            
+           img{
+            width:100%;
+            height:100%;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+           }
+            .heros > div{
+                text-align: center;
+                
+            }
+            .villan > div{
+                text-align: center;
+            }
+            title{
+                display: grid;
+                padding: 10px;
+                margin: 0px;
+                align-content:flex-end;
+               justify-content: center;
+               
+               
+            }
+            p{
+                font-size:xx-small;
+                background-color: aliceblue;
+                padding-top: 0px;
+                margin-top: 0px;
+
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="background"></div>
+        <div class="front">
+            <div class="header"><h1>THE MARVEL UNIVERSE</h1></div>
+            <div id="title"><h2>POPULAR SUPER HEROS</h2></div>
+            <div id="title"><h2>POPULAR SUPER VILLAN</h2></div>
+            <div class="heros">
+                              
+                <div class="item1"><img src="msh1.jpg"><p>IRONMAN</p></div>
+                <div class="item2"><img src="msh2.jpg"><p>THOR</p></div>
+                <div class="item3"><img src="msh3.jpg"><P>CAPTAIN AMERICA</P></div>
+                <div class="item4"><img src="msh1.jpg"><p>HULK</p></div>
+                <div class="item5"><img src="msh2.jpg"><P>SPIDER MAN</P></div>
+                <div class="item6"><img src="msh3.jpg"><p>IRON MAN</p></div>
+                <div class="item7"><img src="msh1.jpg"><p>THOR</p></div>
+                <div class="item8"><img src="msh2.jpg"><p>HULK</p></div>
+            </div>
+            
+            <div class="villan">
+                
+                <div class="item1"><img src="msv1.jpg"><p>LOKI</p></div>
+                <div class="item2"><img src="msv2.jpg"><p>RED SKULL</p></div>
+                <div class="item3"><img src="msv3.jpg"><p>MYSTERIO</p></div>
+                <div class="item4"><img src="msv1.jpg"><p>LOKI</p></div>
+                <div class="item5"><img src="msv2.jpg"><p>RED SKULL</p></div>
+                <div class="item6"><img src="msv3.jpg"><p>MYSTERIO</p></div>
+                <div class="item7"><img src="msv1.jpg"><p>LOKI</p></div>
+                <div class="item8"><img src="msv2.jpg"><p>RED SKULL</p></div>
+            </div>
+        </div>
+    </body>
+</html>
